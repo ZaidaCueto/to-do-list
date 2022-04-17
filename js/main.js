@@ -6,7 +6,7 @@ let month = months[d.getMonth()];
 let daynumber = d.getDate();
 let dayname = d.toLocaleString(lang,{weekday:'long'});
 document.querySelector('.month').innerHTML = month;
-document.querySelector('.date').innerHTML = dayname + ',' + daynumber+'th';
+document.querySelector('.date').innerHTML = dayname + '-' + daynumber;
 
 const taskinput = document.querySelector('.task-input');
 const taskaddbtn = document.querySelector('.add-task-btn');
@@ -43,7 +43,7 @@ function showTodos(filter) {
            <div class="menu">
            <span onclick="editTask(${id},'${todo.name}')" class="edit-btn"><i class='bx bx-edit-alt' ></i>Editar</span>
 
-           <span onclick="deleteTask(${id})" class="delete-btn"><i class='bx bxs-trash' ></i> deletar</span>
+           <span onclick="deleteTask(${id})" class="delete-btn"><i class='bx bxs-trash' ></i> Deletar</span>
            </div>
         </div>`;
        }
@@ -131,5 +131,5 @@ document.querySelector('.clear-all-btn').addEventListener('click', ()=>{
     document.querySelector('.number-of-tasks').innerHTML = divlist + 'tasks'
 });
 
-var divlist = document.querySelectorAll('.task-list').length;
-document.querySelector('.number-of-tasks').innerHTML = divlist + 'tasks';
+var divlist = document.querySelectorAll('.task-list ').length;
+document.querySelector('.number-of-tasks').innerHTML = divlist + ' tasks';

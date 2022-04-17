@@ -134,19 +134,19 @@ body {
 
 }
 
-.tasks-menu-container > span{
-    color:  #c5c7d4;
-    font-size:13px;
-    margin-left: 15px;
-    position: relative;
-    left: -38px;
-    cursor: pointer;
+.tasks-menu-container > span {
+  color: #c5c7d4;
+  font-size: 13px;
+  margin-left: 8px;
+  position: relative;
+  left: -29px;
+  cursor: pointer;
 }
 
 .clear-all-btn{
     all: unset;
     position:relative;
-    left: 30px;
+    left: 21px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -278,9 +278,9 @@ body {
     top:54%;
     left:50%;
     transform: translate(-50%, -50%);
-    color:rgba(24, 19, 19, 0.5);
+    color: rgba(-6, 19, 19, 0.5);
     white-space:nowrap;
-    font-size:11px;
+    font-size: 22px;
 }
 
 .fa-clipboard-list{
