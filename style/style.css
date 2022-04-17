@@ -10,12 +10,12 @@
 
 body {
   
-  background: rgb(85, 81, 102);
+  background: rgb(69, 58, 117);
   font-family: "Poppins", sans-serif;
 }
 
 .container {
-  height: 450px;
+  height: 97%;
   width: 320px;
   background: rgb(93, 86, 119);
   border-radius: 5px;
@@ -44,12 +44,22 @@ body {
 }
 
 .month {
-  font-size: 11px;
-  margin-top: 5px;
-  margin-left: 20px;
-  color: #c5c7d4;
+  font-size: 18px;
+  margin-top: -27px;
+  margin-left: 158px;
+  color: #5D76EC;
   font-weight: 300;
 }
+
+
+.adicinar_tarefa {
+  font-size: 18px;
+  margin-top: -5px;
+  margin-left: 22px;
+  color: #b68c75;
+  font-weight: 500;
+}
+
 
 .number-of-tasks {
   font-size: 13px;
@@ -61,7 +71,7 @@ body {
 }
 
 .task-list-container {
-  height: 290px;
+  height: 81%;
   width: 100%;
   position: absolute;
   top: 100px;
@@ -154,7 +164,7 @@ body {
     color: white;
     background: hsl(254deg 30% 40%);
     padding: 5px;
-    border-radius: 3px;
+    border-radius: 9px;
 
 }
 .clear-all-btn:hover{
@@ -291,5 +301,4 @@ body {
     color:rgba(24, 19, 19, 0.5);
     font-size:50px;
 }
-
 

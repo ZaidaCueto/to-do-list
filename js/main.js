@@ -1,4 +1,4 @@
-const months = ['Janeiro', 'Fevereiro', 'Março', 'Abril', 'Maio', 'Junho', 'Julho', 'Agosto', 'Setembro', 'Outubro',  'Novembro', 'Dezembro' ];
+const months = ['janeiro', 'fevereiro', 'março', 'abril', 'maio', 'junho', 'julho', 'agosto', 'setembro', 'outubro',  'novembro', 'dezembro' ];
 
 const lang = navigator.language;
 const d = new Date();
@@ -6,7 +6,7 @@ let month = months[d.getMonth()];
 let daynumber = d.getDate();
 let dayname = d.toLocaleString(lang,{weekday:'long'});
 document.querySelector('.month').innerHTML = month;
-document.querySelector('.date').innerHTML = dayname + '-' + daynumber;
+document.querySelector('.date').innerHTML = dayname + ', ' + daynumber +' de ' ;
 
 const taskinput = document.querySelector('.task-input');
 const taskaddbtn = document.querySelector('.add-task-btn');
@@ -75,7 +75,7 @@ taskaddbtn.addEventListener('click', e =>{
     }
 
     var divlist = document.querySelectorAll('.task-list').length;
-    document.querySelector('.number-of-tasks').innerHTML = divlist + 'tasks';
+    document.querySelector('.number-of-tasks').innerHTML = divlist + ' tarefas';
 });
 
 function taskcomplete(elem){
@@ -112,7 +112,7 @@ function deleteTask(deleteId){
     showTodos('all');
 
     var divlist = document.querySelectorAll('.task-list').length;
-    document.querySelector('.number-of-tasks').innerHTML = divlist +'tasks';
+    document.querySelector('.number-of-tasks').innerHTML = divlist +' tarefas';
 
 }
 
@@ -128,8 +128,8 @@ document.querySelector('.clear-all-btn').addEventListener('click', ()=>{
     localStorage.setItem("todo-list", JSON.stringify(todos));
     showTodos('all');
     var divlist = document.querySelectorAll('.task-list').length;
-    document.querySelector('.number-of-tasks').innerHTML = divlist + 'tasks'
+    document.querySelector('.number-of-tasks').innerHTML = divlist + ' tarefas'
 });
 
 var divlist = document.querySelectorAll('.task-list ').length;
-document.querySelector('.number-of-tasks').innerHTML = divlist + ' tasks';
+document.querySelector('.number-of-tasks').innerHTML = divlist + ' tarefas';
