@@ -1,0 +1,295 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&family=Roboto:wght@300;400;500&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  
+  background: rgb(85, 81, 102);
+  font-family: "Poppins", sans-serif;
+}
+
+.container {
+  height: 450px;
+  width: 320px;
+  background: rgb(93, 86, 119);
+  border-radius: 5px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  overflow: hidden;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.date-conmainer {
+  height: 60px;
+  width: 100%;
+  background: rgbs(211, 211, 211, 0.2);
+  border-bottom: 0.3px solid #c5c7d4;
+  position: absolute;
+}
+
+.date {
+      color: #5D76EC;
+  font-size: 18px;
+  margin-top: 6px;
+  margin-left: 20px;
+  font-weight: 300;
+}
+
+.month {
+  font-size: 11px;
+  margin-top: 5px;
+  margin-left: 20px;
+  color: #c5c7d4;
+  font-weight: 300;
+}
+
+.number-of-tasks {
+  font-size: 13px;
+  position: absolute;
+  top: 17px;
+  right: 15px;
+  color: #c5c7d4;
+  font-weight: 300;
+}
+
+.task-list-container {
+  height: 290px;
+  width: 100%;
+  position: absolute;
+  top: 100px;
+  overflow: hidden;
+  overflow-y: scroll;
+  background-image: url("../img/foto.jpg");
+  background-size: cover;
+}
+
+.input-div {
+  position: absolute;
+  bottom: 0;
+  height: 60px;
+  width: 100%;
+  background: rgba(211, 211, 221, 0.2);
+  border-top: 0.5px solid #c5c7d4;
+}
+
+.task-input {
+  all: unset;
+  height: 38px;
+  width: 225px;
+  background: white;
+  border-radius: 25px;
+  position: absolute;
+  top: 50%;
+  left: 42%;
+  transform: translate(-50%, -50%);
+  padding-left: 15px;
+  caret-color: #227bcb;
+  border: 0.5px solid #c5c7d4;
+  color: #c5c7d4;
+}
+.add-task-btn {
+  all: unset;
+  padding: 10px;
+  display:flex;
+  justify-content:center;
+  align-items: center;
+  height:20px;
+  width:20px;
+  border-radius:100%; 
+  background: hsl(253, 30%, 40%);
+
+  position: absolute; 
+  top: 50%;
+  right: -5px;
+  transform: translate(-50%, -50%);
+  color:  #fff;
+  cursor: pointer;
+ 
+
+}
+
+.add-task-btn:hover{
+  background: hsl(286, 81%, 41%);
+  box-shadow: 0 0 17px 2px;
+}
+
+.tasks-menu-container{
+    border-bottom: 0.5px solid #c5c7d4;
+    height:40px;
+    width:100%;
+    position: absolute;
+    top: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(211, 211, 221, 0.2);
+
+}
+
+.tasks-menu-container > span{
+    color:  #c5c7d4;
+    font-size:13px;
+    margin-left: 15px;
+    position: relative;
+    left: -38px;
+    cursor: pointer;
+}
+
+.clear-all-btn{
+    all: unset;
+    position:relative;
+    left: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size:9px;
+    color: white;
+    background: hsl(254deg 30% 40%);
+    padding: 5px;
+    border-radius: 3px;
+
+}
+.clear-all-btn:hover{
+  background: hsl(286, 81%, 41%);
+  box-shadow: 0 0 17px 2px;
+}
+
+.task-list{
+    height:50px;
+    width: 100%;
+    position: relative;
+    top: 30px;
+    left: 150px;
+    transform: translate(-50%, -50%);
+    background:white;
+    border-bottom: 0.5px solid #c5c7d4;
+}
+
+.checkbox{
+    position:absolute;
+    top: 50%;
+    left:25px;
+    transform: translate(-50%, -50%);
+}
+
+.task{
+    color: hsl(254, 37%, 34%);
+    font-size:15px;
+    position: relative;
+    top: 50%;
+    margin-left: 160px;
+    transform: translate(-50%, -50%);
+    width:230px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    font-weight: 500;
+
+}
+
+
+::placeholder{
+    color: #c5c7d4;
+    font-size:15px;
+    
+}
+
+.fa-ellipsis{
+    color: rgba(128,128,128,0.9);
+    float:right;
+    margin-right:15px;
+    font-size:13px;
+}
+
+.checked{
+    text-decoration:line-through;
+}
+
+.menu{
+    height:350px;
+    width: 50px;
+    background: white;
+    position:absolute;
+    right:0;
+    top:-5px;
+    right: 15px;
+    border : 0.5px solid #3a3e5a;
+    transform: scale(0.25);
+    visibility: hidden;
+    opacity: 0;
+    transform-origin: 100% 100%;
+    white-space: nowrap;
+}
+
+.edit-btn, .delete-btn{
+    font-size:8px;
+    word-spacing: 3px;
+    cursor:pointer;
+    color:  #7f8399;
+    position: relative;
+    left:5px;
+}
+
+.edit-btn{
+    position: absolute;
+    top:3px;
+    right:25px;
+}
+
+.delete-btn{
+    position: absolute;
+    top:19px;
+    right:15px;
+ 
+}
+
+.menu.show {
+  height: 39px;
+  position: absolute;
+  top: 5px;
+  transform: scale(1);
+  transition: transform 0.2s ease;
+  visibility:visible;
+  opacity: 1;
+
+
+}
+.show{
+    transform: scale(1);
+    transition: transform 0.2s ease;
+    visibility:visible;
+    opacity: 1;
+
+}
+
+.active{
+    text-decoration: underline;
+}
+.no-task-message{
+    position: absolute;
+    top:54%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    color:rgba(24, 19, 19, 0.5);
+    white-space:nowrap;
+    font-size:11px;
+}
+
+.fa-clipboard-list{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color:rgba(24, 19, 19, 0.5);
+    font-size:50px;
+}
+
+
