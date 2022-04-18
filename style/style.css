@@ -302,3 +302,19 @@ body {
     font-size:50px;
 }
 
+::-webkit-scrollbar{
+  width: .6rem;
+  border-radius: -1.5rem;
+  background: hsl(254deg 30% 40%);
+  
+}
+::-webkit-scrollbar-thumb{
+  background-color: hsl(286deg 81% 41%);
+  border-radius: .5rem;
+  background: #5D76EC;
+  
+}
+::-webkit-scrollbar-thumb:hover{
+  background-color: hsl(286deg 81% 41%);
+  
+}
