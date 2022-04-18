@@ -19,7 +19,7 @@ O sucesso começa com uma agenda bem organizada! A rotina das pessoas está mais
 :heavy_check_mark: `Funcionalidade 3:`deletar ou editar tarefas.
 
 <div align="center">
-![GitHub Org's stars](https://img.shields.io/github/stars/camilafernanda?style=social)
+![GitHub Org's stars](https://img.shields.io/github/stars/ZaidaCueto?style=social)
 </div >
 
 ## Aplicação
@@ -40,9 +40,9 @@ Você pode [acessar o código fonte do projeto inicial](https://github.com/alura
 
 ## 🛠️ Abrir e rodar o projeto
 
-<div align="center">
-![GitHub Org's stars](https://img.shields.io/github/stars/ZaidaCueto?style=social)
-</div >
+Acessece [aqui](https://zaidacueto.github.io/to-do-list/) para testar
+) 
+
 
 
 
