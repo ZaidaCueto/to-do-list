@@ -3,6 +3,7 @@
 
 
 
+
 <p align="justify">
  Este projeto foi desenvolvido durante o curso na gama academy com o intuito de praticar os conhecimentos adquiridos . <br>
 O sucesso começa com uma agenda bem organizada! A rotina das pessoas está mais complexa e não dá pra lembrar de tudo. este projeto visa  ajudar com a listas de tarefas e compromissos. Registrar o que é importante deletar ou  riscar o que já foi concluído, sao as funcionalidades deste projeto.
@@ -17,7 +18,9 @@ O sucesso começa com uma agenda bem organizada! A rotina das pessoas está mais
 
 :heavy_check_mark: `Funcionalidade 3:`deletar ou editar tarefas.
 
-
+<div align="center">
+![GitHub Org's stars](https://img.shields.io/github/stars/camilafernanda?style=social)
+</div >
 
 ## Aplicação
 <div align="center">
@@ -28,12 +31,19 @@ https://user-images.githubusercontent.com/87122304/163737901-cec25c8a-0554-4143-
 <p align="center">
 <img src="http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge"/>
 </p>
-<div align="center">
-![GitHub Org's stars](https://img.shields.io/github/stars/ZaidaCueto?style=social)
-</div >
+
+
 
 ## 📁 Acesso ao projeto
 
 Você pode [acessar o código fonte do projeto inicial](https://github.com/alura-cursos/android-com-kotlin-personalizando-ui/tree/projeto-inicial) 
 
 ## 🛠️ Abrir e rodar o projeto
+
+<div align="center">
+![GitHub Org's stars](https://img.shields.io/github/stars/ZaidaCueto?style=social)
+</div >
+
+
+
+
