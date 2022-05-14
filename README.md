@@ -36,7 +36,7 @@ https://user-images.githubusercontent.com/87122304/163737901-cec25c8a-0554-4143-
 
 ## 📁 Acesso ao projeto
 
-Você pode [acessar o código fonte do projeto inicial](https://github.com/alura-cursos/android-com-kotlin-personalizando-ui/tree/projeto-inicial) 
+Você pode [acessar o código fonte do projeto inicial](https://github.com/ZaidaCueto/to-do-list) 
 
 ## 🛠️ Abrir e rodar o projeto
 
